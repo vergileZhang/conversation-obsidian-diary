@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+import os
 import unittest
 from pathlib import Path
 
@@ -45,6 +46,11 @@ class PublicPackageTests(unittest.TestCase):
             "scripts/normalize_transcript.py",
         ]:
             self.assertIn(relative, skill)
+
+    def test_bundled_scripts_are_executable(self) -> None:
+        for name in ["extract_codex_day.py", "normalize_transcript.py"]:
+            script = SKILL_ROOT / "scripts" / name
+            self.assertTrue(os.access(script, os.X_OK), f"{name} must be executable")
 
     def test_public_text_does_not_contain_author_home_or_credentials(self) -> None:
         author_home = str(Path.home())
