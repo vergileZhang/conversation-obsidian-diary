@@ -1,0 +1,7 @@
+interface:
+  display_name: "Conversation Obsidian Diary"
+  short_description: "Turn AI conversations into Obsidian notes"
+  default_prompt: "Use $conversation-obsidian-diary to create today's Obsidian review and update durable topic notes."
+
+policy:
+  allow_implicit_invocation: true
