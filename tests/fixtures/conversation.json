@@ -1,0 +1,23 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-11-08T01:00:00Z",
+      "role": "user",
+      "content": "How should I organize today's notes?"
+    },
+    {
+      "timestamp": "2026-11-08T01:00:05Z",
+      "role": "assistant",
+      "content": "Use a daily timeline plus durable topic notes."
+    },
+    {
+      "timestamp": "2026-11-08T01:00:06Z",
+      "role": "system",
+      "content": "ignored system message"
+    },
+    {
+      "role": "user",
+      "content": ["Please", "keep the original note content."]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{"timestamp":"2026-11-07T16:30:00Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"First message of the local day."}]}}
+this is malformed json and should be ignored
+{"timestamp":"2026-11-08T15:59:00Z","type":"response_item","payload":{"type":"message","role":"assistant","content":[{"type":"output_text","text":"Last message of the local day."}]}}
+{"timestamp":"2026-11-08T16:01:00Z","type":"response_item","payload":{"type":"message","role":"user","content":[{"type":"input_text","text":"outside requested day"}]}}
+{"timestamp":"2026-11-08T08:00:00Z","type":"response_item","payload":{"type":"message","role":"system","content":[{"type":"input_text","text":"system-only content"}]}}
