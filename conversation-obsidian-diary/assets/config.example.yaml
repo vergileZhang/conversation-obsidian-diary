@@ -1,0 +1,6 @@
+# Copy this file outside the repository and replace the example values.
+vault_path: /path/to/your/Obsidian/Vault
+timezone: Asia/Shanghai
+daily_note_pattern: "{date}.md"
+second_brain_root: Conversation Learning
+attachments_folder: attachments
